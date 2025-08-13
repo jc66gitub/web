@@ -4,13 +4,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>hjx的图库</title>
   <link rel="stylesheet" href="./css/swiper.min.css">
   <style>
     html,
     body {
       position: relative;
       height: 100%;
+    }
+
+    .title {
+      margin: 20px auto;
+      text-align: center;
+      font-size: 50px;
+      font-weight: 700;
+      font-family: 楷体;
+    }
+
+    .box {
+      width: 600px;
+      height: 600px;
+      margin: 60px auto;
     }
 
     body {
@@ -51,18 +65,23 @@
 </head>
 
 <body>
-  <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="./images/1.jpg" alt=""></div>
-      <div class="swiper-slide"><img src="./images/2.jpg" alt=""></div>
-      <div class="swiper-slide"><img src="./images/3.jpg" alt=""></div>
-      <div class="swiper-slide"><img src="./images/4.jpg" alt=""></div>
-      <div class="swiper-slide"><img src="./images/5.jpg" alt=""></div>
-      <div class="swiper-slide"><img src="./images/6.jpg" alt=""></div>
-      <div class="swiper-slide"><img src="./images/7.jpg" alt=""></div>
-      <div class="swiper-slide">To Be Continued</div>
+  <div class="title">
+    照片 photo
+  </div>
+  <div class="box">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./images/1.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./images/2.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./images/3.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./images/4.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./images/5.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./images/6.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./images/7.jpg" alt=""></div>
+        <div class="swiper-slide">To Be Continued</div>
+      </div>
+      <div class="swiper-pagination"></div>
     </div>
-    <div class="swiper-pagination"></div>
   </div>
 
 
